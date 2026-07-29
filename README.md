@@ -1,5 +1,7 @@
 # Trade Self-Check
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 **A decision pause before emotional trades.**
 
 [Try the live product](https://tradeselfcheck.com) · English and 中文
