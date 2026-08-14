@@ -1,50 +1,63 @@
-# Trade Self-Check
+# Checkzi
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-**A decision pause before emotional trades.**
+**Check before you decide.**
 
-[Try the live product](https://tradeselfcheck.com) · English and 中文
+[Try Checkzi Trade](https://checkzi.app/) · English and 中文
 
-Trade Self-Check helps individual investors pause before acting. A user writes
-down the trade they are considering, the reasoning behind it, and what they are
-feeling. The product turns that context into a concise reflection card: what
-may be driving the decision, what still needs to be made explicit, and one
-small action to take before proceeding.
+Checkzi is a decision self-check platform for moments when emotion, urgency,
+or incomplete information can outrun judgment. It helps people put a decision
+into words, inspect what is driving it, and take one useful step before acting.
 
-It does **not** predict prices, recommend securities, or tell a user to buy,
-sell, or hold.
+[Checkzi Trade](https://checkzi.app/) is the first and currently only live
+scenario. It focuses on trading rationale, position size, and emotion without
+predicting prices or making the decision for the user.
 
-## The problem
+## Why it exists
 
-Many investing mistakes do not come from a lack of information. They happen in
-the short distance between knowing one's rules and acting under pressure:
-chasing a move, reacting to regret, concentrating a position, or changing a
-plan mid-trade.
+Some costly decisions are not caused by a lack of information. They happen in
+the short distance between knowing one's rules and acting under pressure.
 
-I built Trade Self-Check to make that distance visible at the moment it
-matters.
+Checkzi is built for that distance: a structured pause that makes the current
+reasoning visible without pretending that software should take over the final
+choice.
 
-## How it works
+## Current live scenario: Checkzi Trade
 
 1. Describe the trade in your own words.
-2. Receive a calm reflection card focused on reasoning, emotion, and plan
+2. Receive a concise self-check card focused on reasoning, emotion, and plan
    completeness.
 3. If useful, add portfolio context for a second check on concentration,
    pacing, and cash flexibility.
 4. Save past cards and revisit patterns over time.
 
+Checkzi Trade does **not** predict prices, recommend securities, or tell a user
+to buy, sell, or hold.
+
+## Platform direction
+
+Future Checkzi scenarios may address other decisions where a short,
+well-bounded self-check is useful. Each scenario should keep the same core:
+
+- capture the real decision in the user's own words;
+- separate facts, assumptions, pressure, and missing information;
+- apply rules specific to the scenario before generating explanatory prose;
+- offer one proportionate next action instead of an authoritative answer;
+- preserve the user's agency and make the product boundary explicit.
+
+Only Trade is live today. Other scenarios are product direction, not shipped
+capabilities.
+
 ## Product decisions
 
-- **Pause, not predict.** The product supports decision quality without
-  pretending to know what a security will do next.
-- **One useful action first.** The first screen is a short anchor and a small
-  next step; deeper analysis stays secondary.
-- **Rules before prose.** Deterministic checks handle numerical and portfolio
-  constraints. The language model explains them in calm, readable language.
-- **Guardrails are part of the product.** Prompts, server-side validation, and
-  interface copy all enforce the same boundary: no stock picks, timing calls,
-  target prices, or invented numbers.
+- **Pause, not predict.** Improve decision quality without claiming certainty.
+- **One useful action first.** Keep the first result concise; deeper analysis
+  stays secondary.
+- **Rules before prose.** Deterministic checks handle scenario constraints;
+  the language model explains them in calm, readable language.
+- **Guardrails are part of the product.** Prompting, server-side validation,
+  and interface copy enforce the same boundary.
 - **Bilingual by design.** English and Chinese are supported across the core
   product journey.
 
@@ -58,12 +71,10 @@ matters.
 
 ## Status
 
-The product is live and under active development.
-
-The source code is private. This repository is a public product overview
-covering the problem, product thinking, and implementation boundaries.
+Checkzi Trade is live and under active development. The source code is private.
+This repository is a public product overview covering the problem, product
+thinking, current capabilities, and implementation boundaries.
 
 ---
 
-Trade Self-Check is an educational decision-support tool, not investment
-advice.
+Checkzi Trade is an educational decision-support tool, not investment advice.
