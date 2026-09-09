@@ -11,8 +11,10 @@ or incomplete information can outrun judgment. It helps people put a decision
 into words, inspect what is driving it, and take one useful step before acting.
 
 [Checkzi Trade](https://checkzi.app/) is the first and currently only live
-scenario. It focuses on trading rationale, position size, and emotion without
-predicting prices or making the decision for the user.
+scenario. It is a pre-trade self-check tool for people with some stock-trading
+experience who want to avoid rushed decisions when emotion takes over. Before
+placing a trade, write down your rationale, position size, and emotion, see what
+is driving you, then decide for yourself whether to act.
 
 ## Why it exists
 
