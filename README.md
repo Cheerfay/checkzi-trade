@@ -4,17 +4,21 @@
 
 **Check before you decide.**
 
+**AI-native product · 0→1 shipped · 1→100 in progress**
+
 [Try Checkzi Trade](https://checkzi.app/) · English and 中文
 
-Checkzi is a decision self-check platform for moments when emotion, urgency,
-or incomplete information can outrun judgment. It helps people put a decision
-into words, inspect what is driving it, and take one useful step before acting.
+Checkzi is an AI-native decision self-check platform for moments when emotion,
+urgency, or incomplete information can outrun judgment. It helps people put a
+decision into words, uses AI within explicit scenario rules to inspect what is
+driving it, and offers one useful step before acting.
 
 [Checkzi Trade](https://checkzi.app/) is the first and currently only live
 scenario. It is a pre-trade self-check tool for people with some stock-trading
 experience who want to avoid rushed decisions when emotion takes over. Before
-placing a trade, write down your rationale, position size, and emotion, see what
-is driving you, then decide for yourself whether to act.
+placing a trade, write down your rationale, position size, and emotion. AI turns
+that context into a structured decision check that helps you see what is driving
+you, then you decide for yourself whether to act.
 
 ## Why it exists
 
@@ -73,9 +77,10 @@ capabilities.
 
 ## Status
 
-Checkzi Trade is live and under active development. The source code is private.
-This repository is a public product overview covering the problem, product
-thinking, current capabilities, and implementation boundaries.
+Checkzi Trade has completed 0→1 and is live. Its 1→100 stage—user validation,
+growth, and continued product iteration—is in progress. The source code is
+private. This repository is a public product overview covering the problem,
+product thinking, current capabilities, and implementation boundaries.
 
 ---
 
